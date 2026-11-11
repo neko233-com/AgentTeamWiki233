@@ -1,0 +1,10 @@
+{
+  "server": "http://192.168.1.100:8233",
+  "productId": "my-product",
+  "token": "",
+  "mirrors": [
+    "https://gh-proxy.com/",
+    "https://ghproxy.net/",
+    "https://ghfast.top/"
+  ]
+}

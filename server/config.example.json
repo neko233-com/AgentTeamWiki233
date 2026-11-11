@@ -1,0 +1,32 @@
+{
+  "listen": ":8233",
+  "cacheDir": "cache",
+  "cacheMaxMB": 2048,
+  "adminToken": "",
+  "products": [
+    {
+      "productId": "product-a",
+      "name": "产品 A",
+      "token": "",
+      "githubToken": "",
+      "allowHosts": [
+        "github.com",
+        "raw.githubusercontent.com",
+        "api.github.com",
+        "codeload.github.com",
+        "objects.githubusercontent.com",
+        "gist.github.com",
+        "gist.githubusercontent.com",
+        "uploads.github.com"
+      ],
+      "allowRepos": ["neko233-com/*"]
+    },
+    {
+      "productId": "product-b",
+      "name": "产品 B",
+      "token": "change-me",
+      "githubToken": "",
+      "allowRepos": ["*"]
+    }
+  ]
+}

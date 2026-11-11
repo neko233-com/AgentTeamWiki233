@@ -1,0 +1,10 @@
+services:
+  ghaccel233:
+    build: .
+    image: ghaccel233:latest
+    container_name: ghaccel233
+    restart: unless-stopped
+    ports:
+      - "8233:8233"
+    volumes:
+      - ./data:/data

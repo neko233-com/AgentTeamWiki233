@@ -1,0 +1,18 @@
+# Go
+server/ghaccel233
+server/ghaccel233.exe
+server/cache/
+server/config.json
+*.test
+*.out
+
+# 部署产物
+data/
+*.log
+*.pid
+
+# 编辑器/系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
